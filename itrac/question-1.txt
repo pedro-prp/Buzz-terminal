@@ -1,0 +1,7 @@
+De qual lado das mesas você senta?
+
+1) De costas pra porta
+2) De frente pra porta
+3) Na mesa do Davi
+4) so fico nas salas
+
