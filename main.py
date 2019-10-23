@@ -1,16 +1,9 @@
-print('Buzz Terminal')
-test_name = "itrac"
+from util import get_answers
 
-# numQuestions vai pegar dinamicamente do teste;
+test_name = "itrac"
 numQuestions = 1
 
-points = 4*numQuestions
+print("ITRAC")
 
-# perguntas vão vir dinamicamente
+get_answers(test_name, numQuestions)
 
-for i in range(numQuestions):
-    with open (str(test_name) + "/question-" + str((i+1))  + ".txt", "r") as file:
-        lines=file.readlines()
-        
-        for line in lines:
-            print(line, end='')
